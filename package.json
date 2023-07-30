@@ -1,6 +1,6 @@
 {
   "name": "react-native-cibil-meter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
@@ -15,7 +15,6 @@
     "react-native-linear-gradient": "^2.8.1"
   },
   "devDependencies": {
-    "@react-native-community/cli": "^8.0.2",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
