@@ -1,6 +1,6 @@
 {
   "name": "react-native-cibil-meter",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
@@ -15,6 +15,7 @@
     "react-native-linear-gradient": "^2.8.1"
   },
   "devDependencies": {
+    "@react-native-community/cli": "^8.0.2",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
@@ -34,7 +35,7 @@
   "engines": {
     "node": ">=16"
   },
-  "description": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+  "description": "This is new React native Cibil Meter Package",
   "main": "index.js",
   "keywords": [
     "react-native-speedo-meter",
@@ -50,6 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Itsmanrpchahal/RN_Cibil_meter"
-  }
+    "url": "git+https://github.com/Itsmanrpchahal/RN_Cibil_meter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Itsmanrpchahal/RN_Cibil_meter/issues"
+  },
+  "homepage": "https://github.com/Itsmanrpchahal/RN_Cibil_meter#readme"
 }

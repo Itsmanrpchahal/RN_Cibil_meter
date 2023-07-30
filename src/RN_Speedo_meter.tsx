@@ -119,7 +119,7 @@ const RN_Speedo_Meter: React.FC<RN_Speedo_MeterProps> = ({
     toValue: limitValue(value, minValue, maxValue, allowedDecimals),
     duration: easeDuration,
     easing: Easing.linear,
-    useNativeDriver,
+    useNativeDriver: true,
   }).start();
 
   const rotate = speedometerValue.interpolate({
