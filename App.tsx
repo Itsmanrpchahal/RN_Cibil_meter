@@ -9,7 +9,6 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
 import RN_Speedo_Meter from './src/RN_Speedo_meter';
-
 function App(): JSX.Element {
   return (
     <View

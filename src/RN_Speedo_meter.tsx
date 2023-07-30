@@ -1,9 +1,7 @@
-import {SafeAreaView, TouchableOpacity} from 'react-native';
+import {SafeAreaView} from 'react-native';
 // @ts-ignore
 import React from 'react';
-import styled from 'styled-components/native';
 import {View, Image, Animated, Easing, Text} from 'react-native';
-import PropTypes from 'prop-types';
 import LinearGradient from 'react-native-linear-gradient';
 
 // Utils
@@ -12,7 +10,6 @@ import calculateLabelFromValue from '../../RNSpeedMeter/src/utills/calculate-lab
 import limitValue from '../../RNSpeedMeter/src/utills/limit-value';
 import validateSize from '../../RNSpeedMeter/src/utills/validate-size';
 import style, {width as deviceWidth} from './style';
-import {Styles} from 'styled-components/native/dist/types';
 
 type RN_Speedo_MeterProps = {
   value?: number;
@@ -243,10 +240,3 @@ const RN_Speedo_Meter: React.FC<RN_Speedo_MeterProps> = ({
 };
 
 export default RN_Speedo_Meter;
-
-const MainWrapper = styled.View`
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-`;

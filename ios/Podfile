@@ -27,7 +27,7 @@ if linkage != nil
 end
 
 target 'RNSpeedMeter' do
-  config = use_native_modules!(".")
+  config = use_native_modules!
 
   # Flags change depending on the env values.
   flags = get_default_flags()
